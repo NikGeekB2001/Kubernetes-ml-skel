@@ -6,6 +6,8 @@
 Чтобы точно воспроизвести окружение и версии библиотек необходимо использовать virtualenv
 ```
 python3 -m venv venv
+python -m venv venv
+py -m venv .venv
 ```
 
 Будет создана директория venv, из которой можно активировать окружение
@@ -17,12 +19,14 @@ source venv/bin/activate
 
 Для Windows
 ```
+source venv/Scripts/activate
 venv\Scripts\activate.bat
 ```
 
 ### Установка зависимостей
 Сперва рекомендуется обновить pip
 ```
+./venv/Scripts/python.exe -m pip install --upgrade pip
 pip install --upgrade pip
 ```
 
