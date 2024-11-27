@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Kubernetes-ml-skel
   Развернем модель в облачном Kubernetes кластере и настроим контроль метрик его состояния. Кроме того, подготовим уведомления (алерты) 
   
@@ -16,3 +17,6 @@
 Смотри [CONTRIBUTING.md](CONTRIBUTING.md)
 test
 
+=======
+# Kubernetes-ml-skel
+>>>>>>> origin/main
